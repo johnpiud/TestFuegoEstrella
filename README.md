@@ -27,7 +27,7 @@ Para probar los servicios se usa postman. En la carpeta Documentos se encuentra 
 
 Restricciones:
 - La cantidad máxima a la cual la nave le puede enviar la distancia y el mensaje es a los tres satélites indicados.
- - El desfase de mensaje enviado por la nave a los satélites es de derecha a izquierda, es decir, si el mensaje es [“este”, “es”, “un”, “mensaje”], un desfase podría ser [“”, “”, “”, “este”, “es”, “un” “mensaje”].
+ - El desfase de mensaje enviado por la nave a los satélites es de izquierda a derecha, es decir, si el mensaje es [“este”, “es”, “un”, “mensaje”], un desfase podría ser [“”, “”, “”, “este”, “es”, “un” “mensaje”].
 
 ### Servicio POST Nivel 2
 URL_SERVICIO: http://localhost:8080/fuegoEstrella/topsecret
