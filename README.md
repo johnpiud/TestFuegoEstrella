@@ -13,6 +13,8 @@ Figura 2. Crear JAR del proyecto.
 
 Nos ubicamos en la ruta del proyecto y se ejecuta el comando `gradle build`. Al finalizar se debe mostrar un mensaje como se muestra en el recuadro verde de la Figura 2.
 
+Si por algún motivo no es posible crear el JAR, en la carpeta Documentos se encuentra un JAR de la apliacación.
+
 ## Ejecutar JAR
 ![Con titulo](Documentos/EjecutarJar.PNG "titulo")
 Figura 3. Ejecutar JAR
