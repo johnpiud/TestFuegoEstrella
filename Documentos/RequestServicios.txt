@@ -1,0 +1,28 @@
+// Request servicio Nivel 2
+// url http://localhost:8080/fuegoEstrella/topsecret
+{
+    "satellites": [
+        {
+            "name": "kenobi",
+            "distance": 100.0,
+            "message": ["este", "", "", "mensaje", ""]
+        },
+        {
+            "name": "skywalker",
+            "distance": 115.5,
+            "message": ["", "es", "", "", "secreto"]
+        },
+        {
+            "name": "solo",
+            "distance": 142.7,
+            "message": ["este", "", "un", "", ""]
+        }
+    ]
+}
+
+// Request servicio Nivel 3 POST
+// url http://localhost:8080/fuegoEstrella/topsecret_split/{satellite_name} kenobi, skywalker, solo
+{           
+    "distance": 100.0,
+    "message": ["", "", "un", "mensaje", "secreto"]
+}
