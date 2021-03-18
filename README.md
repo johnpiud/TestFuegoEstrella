@@ -7,7 +7,8 @@ Una vez ubicado en el repositorio se debe pulsar en el botón en el recuadro roj
 El botón en el recuadro azul es para clonarlo y la opción en el recuadro verde es para descargarlo como un archivo .zip.
 
 ## Crear JAR
-Una vez descargado o clonado el proyecto, se debe abrir la consola del sistema, puede ser CMD o powershell en windows.
+Antes de crear el JAR, se debe tener instalado JAVA y Gradle en el sistema. Una vez descargado o clonado el proyecto, se debe abrir la consola del sistema, puede ser CMD o powershell en windows.
+
 ![Con titulo](Documentos/EjecutarBuild.png "titulo")
 Figura 2. Crear JAR del proyecto.
 
