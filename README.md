@@ -25,6 +25,10 @@ En la consola ubicarse en la ruta ruta_proyecto\build\libs y ejecutar el comando
 ## Consumir Servicios
 Para probar los servicios se usa postman. En la carpeta Documentos se encuentra un archivo RequestServicios.txt el cual tiene el request usado para consumir los servicios POST respectivos.
 
+Restricciones:
+- La cantidad máxima a la cual la nave le puede enviar la distancia y el mensaje es a los tres satélites indicados.
+ - El desfase de mensaje enviado por la nave a los satélites es de derecha a izquierda, es decir, si el mensaje es [“este”, “es”, “un”, “mensaje”], un desfase podría ser [“”, “”, “”, “este”, “es”, “un” “mensaje”].
+
 ### Servicio POST Nivel 2
 URL_SERVICIO: http://localhost:8080/fuegoEstrella/topsecret
 
@@ -37,7 +41,7 @@ En la Figura 4 se observa la configuración en Postman, el request y la respuest
 ### Servicio POST Nivel 3
 URL_SERVICIO: http://localhost:8080/fuegoEstrella/topsecret_split/{satellite_name}
 
-Opciones satellite_name:
+Opciones satellite_name, cualquier otra opción no se tomará en cuenta:
 - kenobi
 - skywalker
 - solo
